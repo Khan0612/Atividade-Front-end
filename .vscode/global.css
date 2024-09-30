@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-color: #c0b0ec2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: bottom;
+    margin: 1%;
+}
+.photo img{
+    height: 655px;
+    width: 1000px;
+    border-radius: 10%;
+}
+
+.information{
+    width: 37%;
+    height: 30%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 3%;
+}
+
+.information h1{
+    font-size: 50px;
+}

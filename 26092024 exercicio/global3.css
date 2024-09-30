@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    background-color: #0000002f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.esquerda{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    margin: 2px;
+}
+
+.ola{
+    height: 200%;
+    width: 80%;
+    background-color: rgb(255, 87, 25);
+    border-radius: 10%;
+}
+
+.bolas{
+    height: 35%;
+    width: 80%;
+    display: flex;
+}
+
+.bola{
+    height: 45px;
+    width: 75px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    margin: 2%;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    height: 50%;
+    width: 50%;
+}
+
+.retanguloCima{
+    height: 15%;
+    width: 60%;
+    background-color: blue;
+    margin: 1%;
+}
+
+.retangulo{
+    height: 60%;
+    width: 60%;
+    background-color: blue;
+    margin: 1%;
+}
+

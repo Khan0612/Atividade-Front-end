@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Cebolitos{
+    font-size: 36px;
+}
+
+.Amizades{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.amigo{
+    height: 80px;
+    background-color: royalblue;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.amigo h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+@media screen and (min-width: 600px){
+    .Cebolitos{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 26px;
+    }
+    
+}
